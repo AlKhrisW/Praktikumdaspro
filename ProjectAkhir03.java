@@ -9,8 +9,6 @@ public class ProjectAkhir03 {
 
         gajiHarian = 150000;
 
-        // System.out.print("Masukkan gaji harian: ");
-        // gajiHarian = sc.nextInt();
         System.out.print("Masukkan jumlah hari masuk: ");
         hariMasuk = sc.nextInt();
         System.out.print("Masukkan jumlah hari SIA: ");
