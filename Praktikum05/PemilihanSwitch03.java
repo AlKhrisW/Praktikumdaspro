@@ -16,17 +16,20 @@ public class PemilihanSwitch03 {
 
         switch(operator){
             case '+':
-            hasil = angka1 + angka2;
-            break;
+                hasil = angka1 + angka2;
+                break;
             case '-':
-            hasil = angka1 - angka2;
-            break;
+                hasil = angka1 - angka2;
+                break;
             case '*':
-            hasil = angka1 * angka2;
-            break;
+                hasil = angka1 * angka2;
+                break;
             case '/':
-            hasil = angka1 / angka2;
-            break;
+                hasil = angka1 / angka2;
+                break;
+            default:
+                System.out.println("Maaf operator yang anda pilih tidak sesuai");
+                break;
         }
 
         System.out.println(angka1 + "" + operator + "" + angka2 + "=" + hasil);
