@@ -5,10 +5,10 @@ public class ProjectGajiGuru {
         // ----- DEKLARASI -----
         Scanner sc = new Scanner(System.in);
 
-        double gajiPerJam, gajiPokok, gajiTotal;
+        double gajiPerJam, gajiPokok, gajiTotal, jamMengajar;
         double tunjanganJabatan, tunjanganGuru1 = 0, tunjanganGuru2 = 0, tunjanganGuru3 = 0, tunjanganDinas;
         String nama, jabatan, tugasDinas, NIP;
-        int statusGuru, jamMengajar;
+        int statusGuru;
 
         // ----- INPUT DATA -----
         System.out.print("Masukkan NIP anda: ");
@@ -16,7 +16,7 @@ public class ProjectGajiGuru {
         System.out.print("Masukkan nama anda: ");
             nama = sc.nextLine();
         System.out.print("Masukkan jumlah jam mengajar anda: ");
-            jamMengajar = sc.nextInt();
+            jamMengajar = sc.nextDouble();
             sc.nextLine();
         System.out.print("Apakah anda memiliki jabatan (y/t): ");
             jabatan = sc.nextLine();
