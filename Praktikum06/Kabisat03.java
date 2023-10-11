@@ -14,5 +14,6 @@ public class Kabisat03 {
         } else {
             System.out.println("Bukan Tahun Kabisat");
         }
+        sc.close();
     }
 }
