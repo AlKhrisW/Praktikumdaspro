@@ -20,5 +20,6 @@ public class KabisatNested03 {
         } else{
             System.out.println("Bukan Tahun Kabisat");
         }
+    sc.close();
     }
 }
