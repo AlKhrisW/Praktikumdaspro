@@ -36,5 +36,7 @@ public class Gaji03 {
         } else {
             System.out.println("Masukan Kategori salah");
         }
+
+        sc.close();
     }
 }
