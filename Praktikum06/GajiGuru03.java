@@ -27,8 +27,7 @@ public class GajiGuru03 {
 
         // ----- JABATAN ------
         if (jabatan.equals("y")) {
-            System.out.println("1. Kepala Sekolah \t2. Sekretaris \n3. Bendahara \t\t4. Kepala Kurikulum");
-            System.out.println("5. Kepala Kesiswaan \t6. Kepala Sarpas \n7. Kepala Humas \t8. Kepala Tata Usaha");
+            System.out.println("1. Kepala Sekolah \n2. Wakil Kepala Sekolah \n3. Sekretaris \n4. Bendahara \n5. Kepala Urusan");
             System.out.print("Masukkan Jabatan anda (angka): ");
             jenisJabatan = sc.nextInt();
 
@@ -37,31 +36,24 @@ public class GajiGuru03 {
                 System.out.println("Tunjangan Jabatan anda (Kepala Sekolah): " + tunjanganJabatan);
             } else if (jenisJabatan == 2){
                 tunjanganJabatan = 600000;
-                System.out.println("Tunjangan Jabatan anda (Sekretaris): " + tunjanganJabatan);
+                System.out.println("Tunjangan Jabatan anda (Wakil Kepala Sekolah): " + tunjanganJabatan);
             } else if (jenisJabatan == 3){
                 tunjanganJabatan = 450000;
-                System.out.println("Tunjangan Jabatan anda (Bendahara): " + tunjanganJabatan);
+                System.out.println("Tunjangan Jabatan anda (Sekretaris): " + tunjanganJabatan);
             } else if (jenisJabatan == 4){
                 tunjanganJabatan = 300000;
-                System.out.println("Tunjangan Jabatan anda (Kepala Kurikulum): " + tunjanganJabatan);
+                System.out.println("Tunjangan Jabatan anda (Bendahara): " + tunjanganJabatan);
             } else if (jenisJabatan == 5){
                 tunjanganJabatan = 300000;
-                System.out.println("Tunjangan Jabatan anda (Kepala Kesiswaan): " + tunjanganJabatan);
-            } else if (jenisJabatan == 6){
-                tunjanganJabatan = 300000;
-                System.out.println("Tunjangan Jabatan anda (Kepala Sarpras): " + tunjanganJabatan);
-            } else if (jenisJabatan == 7){
-                tunjanganJabatan = 300000;
-                System.out.println("Tunjangan Jabatan anda (Kepala Humas): " + tunjanganJabatan);
-            } else if (jenisJabatan == 8){
-                tunjanganJabatan = 300000;
-                System.out.println("Tunjangan Jabatan anda (Kepala Tata Usaha): " + tunjanganJabatan);
+                System.out.println("Tunjangan Jabatan anda (Kepala Urusan): " + tunjanganJabatan);
             }
         }
         else {
             tunjanganJabatan = 0;
             System.out.println("Tunjangan jabatan anda: " + tunjanganJabatan);
         }
+
+            System.out.println();
 
         // ----- STATUS GURU -----
         System.out.println("1. Guru part-time \n2. Guru full-time \n3. Guru tetap");
@@ -84,6 +76,8 @@ public class GajiGuru03 {
                 break;
         }
 
+            System.out.println();
+
         // ----- TUGAS DINAS -----
         System.out.print("Apakah anda melakukan tugas dinas (y/t): ");
         tugasDinas = sc.nextLine();
@@ -97,7 +91,7 @@ public class GajiGuru03 {
             System.out.println("Tunjangan dinas anda: " + tunjanganDinas);
         }
 
-        System.out.println("\n"+NIP + " " + nama + " " + jamMengajar + " " + jabatan + " " + statusGuru + " " + tugasDinas + "\n");
+        System.out.println("\n"+ NIP + " " + nama + " " + jamMengajar + " " + jabatan + " " + statusGuru + " " + tugasDinas + "\n");
 
         // ----- HITUNGAN AKUMULASI -----
        
