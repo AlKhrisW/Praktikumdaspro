@@ -110,8 +110,6 @@ public class GajiGuruPerulangan {
             } 
         } while(menu != 3);
 
-            //System.out.println("\n"+ NIP + " " + nama + " " + jamMengajar + " " + jabatan + " " + statusGuru + " " + tugasDinas + "\n");       
-
         sc.close();
     }
 }
