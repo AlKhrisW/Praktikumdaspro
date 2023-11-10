@@ -40,11 +40,10 @@ public class BioskopWithScanner03 {
                     }
                 }
             } else if (menu == 2) {
-                String simbol = "***";
                 for (int i = 0; i < penonton.length; i++) {
                     for (int j = 0; j < penonton[i].length; j++) {
                         if (penonton[i][j] == null) {
-                            penonton[i][j] = simbol;
+                            penonton[i][j] = "***";
                         }
                     }
                 }
