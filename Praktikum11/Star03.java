@@ -8,7 +8,7 @@ public class Star03 {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            System.out.println("*");
+            System.out.print("*");
         }
     }
 }
