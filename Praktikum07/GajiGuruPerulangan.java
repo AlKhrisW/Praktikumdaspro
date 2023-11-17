@@ -24,7 +24,7 @@ public class GajiGuruPerulangan {
                 nama = sc.next();
 
                 System.out.println("Selamat datang " + nama + " NIP " + NIP);
-                    System.out.println();
+                System.out.println();
         
             } else if (menu == 2){
                 System.out.print("Masukkan jumlah jam mengajar anda: ");
