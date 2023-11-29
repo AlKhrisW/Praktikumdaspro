@@ -7,7 +7,11 @@ public class ProjectAkhirAldo {
         String inputPass, inputStatus;
         int menu = 0, opsiLain, opsiAbsen, employeeCount = 4, inputNIP, loginNIP;
 
-        String[] passwordArray = { "admin123", "guru1", "guru2", "guru3" };
+        String[] passwordArray = new String[6];
+        passwordArray[0] = "admin123";
+        passwordArray[1] = "guru1";
+        passwordArray[2] = "guru2";
+        passwordArray[3] = "guru3";
 
         int[] NIP = new int[6];
         NIP[0] = 123123; // admin
@@ -45,7 +49,6 @@ public class ProjectAkhirAldo {
         absen[3][4] = 96;
 
         while (true) {
-
             System.out.println("------ Login Sistem Penggajian Guru ------");
             System.out.print("Username: ");
             loginNIP = sc.nextInt();
@@ -116,6 +119,8 @@ public class ProjectAkhirAldo {
                                             System.out.println("Guru Tetap");
                                             System.out.print("Masukkan Status: ");
                                             status[employeeCount] = sc.nextLine();
+                                            System.out.print("Masukkan Password: ");
+                                            passwordArray[employeeCount] = sc.nextLine();
                                             employeeCount++;
                                         }
                                     } else if (opsiLain == 2) {
@@ -215,7 +220,7 @@ public class ProjectAkhirAldo {
                         }
                     } while (menu != 6);
                 } else { // menu guru
-
+                    
                 }
             } else {
                 System.out.println("Username atau Password Anda salah!");

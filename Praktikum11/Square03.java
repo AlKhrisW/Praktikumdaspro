@@ -11,7 +11,7 @@ public class Square03 {
             for (int j = 1; j <= n; j++) {
                 System.out.print("*");
             }
-            System.out.println();
+            // System.out.println();
         }
         sc.close();
     }
