@@ -250,7 +250,7 @@ public class ProjectFungsi {
                                 }
                                 break;
                             case 4:
-                                System.out.println("===== PELAPORAN GAJI BULAN INI =====");
+                                System.out.println("===== PELAPORAN GAJI =====");
                                 System.out.println(" ");
 
                                 System.out.print("Masukkan Bulan: ");
